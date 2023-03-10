@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#div1{
+    display: flex;
+    text-align: center;
+    color: azure;
+    text-shadow: 2px 5px 5px black;
+    font-size: 20px;
+    height: 80px;
+    background: -webkit-linear-gradient(to right, #61045F, #AA076B);
+    background: linear-gradient(to top, #61045F, #AA076B);
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+    align-items: flex-end;
+
+}
+
+h6{
+    text-align: right;
+    margin-top: 3.5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 5px 5px black;
+}
+
+body{
+    background: #cc2b5e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #753a88, #cc2b5e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #753a88, #cc2b5e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+table, td, tr{
+    border: 2px solid white;
+    border-collapse: collapse; 
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    /* background-color: #a39dee; */
+    /* border-radius: 30px; */
+}
+
+table{
+    height: 500px;
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 4%;
+}
+
+hr{
+   box-shadow: 2px 5px 5px black;
+}
+
+#td1, #td2, #td3, table, tr{
+    border-top: none;
+}
+
+#td3, #td6, #td9, table, tr{
+    border-right: none;
+}
+
+#td7, #td8, #td9, table, tr{
+    border-bottom: none;
+}
+
+#td1, #td4, #td7, table, tr{
+    border-left: none;
+}
+
+td:hover{
+    background-color: aliceblue;
+    opacity: 0.8;
+}
+
+.div2{
+    background: white;
+    height: 70px;
+    width: 400px;
+    text-align: center;
+    padding-top: 20px;
+    margin-right: auto;
+    margin-left: 50px;
+    top:-50%;
+    z-index: -1;
+    transition: 0.2s;
+    position: absolute;
+    background-image: linear-gradient(to right, #ff6cab, #7366ff);
+    text-shadow: 2px 2px 2px black;
+    color: white;
+}
+
+.show{
+    top:47%;
+}
+
+.img1{
+    height: 300px;
+    position: relative;
+    right:300px;
+}
+
+.showim{
+    top: -400px;
+    right: -1150px;
+}
+
+#div3{
+    display: block;
+    margin-left: 40px;
+}
+
+
